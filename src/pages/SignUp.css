@@ -1,0 +1,79 @@
+.container-register {
+    height: 480px;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 5px rgba(87, 83, 83, 0.7);
+}
+
+.container-register h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container-register label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+}
+
+.container-register input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container-register input[type="text"],
+.container-register input[type="email"],
+.container-register input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+}
+
+.container-register button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container-register button:hover {
+    transform: scale(1.05, 1.05);
+    cursor: pointer;
+}
+
+.signin-input:-webkit-autofill,
+.signin-input:-webkit-autofill:hover, 
+.signin-input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  font-style: italic;
+  font-size: 13px;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}

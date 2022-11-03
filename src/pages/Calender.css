@@ -1,0 +1,12 @@
+.calendarioo{
+    margin: auto;
+    padding: auto;
+    height: max-content;
+}
+.Calender{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    width: 100%;
+}
+

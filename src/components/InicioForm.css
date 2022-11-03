@@ -1,0 +1,90 @@
+.login{
+    width:500px;
+    height:70px;
+    margin:10% auto;
+}
+
+.inicio h6{
+    margin-block-start: auto;
+    margin-block-end: 1.5px;
+}
+
+
+.inicioF input{
+    border: 10px;
+    border-color: black;
+    width: 100%;
+}
+
+.user,.pwd{
+    display: block;
+    width: 100%;
+    height: 35px;
+    text-transform: capitalize;
+    border-radius: 7px ;
+    border: none;
+    background-color: white;
+    color: white;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.user::placeholder,.pwd::placeholder{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+.user,.pwd:focus{
+    outline: none;
+}
+
+.FL{
+    background-color: black;
+    border-color: black;
+}
+
+.IS{
+    margin-top: 20%;
+    display: flex;
+    margin-left: 32.5%;
+    width: 35%;
+    justify-content: center;
+    height: 5vh;
+    background-color: #4C4C49;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#fff;
+
+}
+
+.NApwd{
+    margin-top: 2px;
+    color: white;
+    text-decoration: underline;
+}
+
+.NAcc {
+    color: white;
+    text-decoration: underline;
+}
+
+.IS:hover{
+    transition: 0.3s;
+    transform: scale(1.1,1.1);
+}
+
+.user:-webkit-autofill,
+.user:-webkit-autofill:hover, 
+.user:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  font-style: italic;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}

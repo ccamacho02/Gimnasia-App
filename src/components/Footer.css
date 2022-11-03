@@ -1,0 +1,30 @@
+.Foot{
+    background-color: #000;
+    width: 100%;
+    margin: auto;
+    height: 6%;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    padding-top: 0.2%;
+    z-index: 125;
+    margin-top: 10px;
+  }
+.Foot a img{
+    margin: 10px 10px;
+
+}
+.Foot a img:hover{
+    transform: scale(1.25, 1.25);
+}
+.Foot div{
+    display: grid;
+    place-content: center;
+    width: 30%;
+    padding-bottom: 5px;
+    margin: 25%;
+    color: #FFF;
+}

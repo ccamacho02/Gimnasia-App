@@ -1,0 +1,46 @@
+.btn{
+    padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 80px;
+	padding-left: 80px;
+    margin: auto;
+    margin-top: 50px;
+	background-color: white;
+	border: 2px solid #000;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	color: gray;
+    display: block;
+    transition: ease-in .4s;
+	cursor: pointer;
+	width: 75%;
+	box-shadow: none;
+}
+
+@keyframes color{
+	0%{
+		box-shadow: none;
+	}
+
+	25%{
+		box-shadow: 8px 5px 5px 1px red;
+	}
+	50%{box-shadow: 8px 5px 5px 1px rgba(255, 0, 0, 0.75);} 
+
+	75%{
+		box-shadow:  8px 5px 5px 1px rgba(255, 0, 0, 0.50);
+	}
+	100%{
+		box-shadow:  8px 5px 5px 1px rgba(255, 0, 0, 0.25);
+	}
+}
+
+.btn:hover{
+    transform: scale(1.05, 1.05);
+	animation: color 1s linear 0s infinite alternate;
+	color: #FFF;
+	border: 10px;
+	background-color: #000;
+}
+
