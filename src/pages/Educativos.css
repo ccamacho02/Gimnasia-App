@@ -1,0 +1,27 @@
+.educativos{
+    margin: auto;
+}
+
+.row-menu{
+    border-right:solid 1px;
+    width: 45%;
+    height: 100vh;
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.divlinks{
+    width: 100%;
+    text-align: center;
+}
+.links{
+    padding-top: 30px;
+    display: block;
+}
+
+.videos{
+    float: right;
+    margin-top: 85px;
+    margin-right: 100px;
+    border-bottom: solid 1px;
+}

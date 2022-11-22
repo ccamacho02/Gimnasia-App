@@ -9,6 +9,7 @@ import SignUp from './pages/SignUp';
 import NotFound from './pages/NotFound';
 import Profile from './pages/Profile';
 import Team from './pages/Team';
+import Educativos from "./pages/Educativos";
 
 function App(){
     return(
@@ -21,6 +22,7 @@ function App(){
           <Route path = '/Calendario' element={<Calender/>}/>
           <Route path = '/Perfil' element={<Profile/>}/>
           <Route path = '/Equipo' element={<Team/>}/>
+          <Route path = '/Educativos' element={<Educativos/>}/>
           <Route path = '*' element={<NotFound/>}/>
         </Routes>
       </div>

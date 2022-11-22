@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </header>
       <div className="main">
-        <div id="left" >
+        <div className="left" >
           <motion.img transition={{ duration: 12 }}
             animate={{
               y: [0, 500, 0]
@@ -41,7 +41,7 @@ export default function Home() {
             align="left" src="https://colorearimagenes.net/wp-content/uploads/2014/12/gimnasia-en-barra-8.gif">
           </motion.img></div>
 
-        <div id="center">
+        <div className="center">
           <motion.h1
             initial={{ color: '#868C8C' }}
             transition={{ duration: 10 }}
@@ -56,7 +56,7 @@ export default function Home() {
         </div>
 
         <div
-          id="right" >
+          className="right" >
           <motion.img
             transition={{ duration: 12 }}
             animate={{
@@ -67,7 +67,7 @@ export default function Home() {
       </div>
       <Footer>
       </Footer>
-      <div id="form">
+      <div className="form">
         <form>
           <label>Recibe Nuestras Noticias:</label>
           <input type="email" className="news" multiple placeholder="Email"></input>
